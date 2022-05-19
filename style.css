@@ -1,9 +1,18 @@
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 50px);
+    gap: 1px;
+    column-gap: 3px;
   }
 
 .grid-item {
     height: 50px;
     width: 50px;
+    border: solid;
+    border-width: thin;
+    
+}
+
+.grid-active {
+    background-color: black;
 }
