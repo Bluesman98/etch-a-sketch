@@ -1,12 +1,15 @@
 .grid-container {
     display: grid;
-    gap: 1px;
-    column-gap: 3px;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: thin;
   }
 
 .grid-item {
-    height: 50px;
-    width: 50px;
+    aspect-ratio: 1 / 1 ;
     border: solid;
     border-width: thin;
     
